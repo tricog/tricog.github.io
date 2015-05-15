@@ -19,18 +19,25 @@
 	<link href="css/mediacss.css" rel="stylesheet">
 	<!-- animation CSS -->
 	<link href="css/animate.min.css" rel="stylesheet">
-	<!-- jquery validation CSS -->
-	<link href="css/sweet-alert.css" rel="stylesheet">
 
 
 	<!-- JQuery Liabrary -->
 	<script src="js/jquery.min.js"></script>
 	<!-- animation JS -->
 	<script src="js/wow.min.js"></script>
-	<!-- jquery validation JS -->
-	<script src="js/sweet-alert.min.js"></script>
 	<!-- Website JS -->
-<script src="js/tricog_js.js"></script>
+	<script src="js/tricog_js.js"></script>
+	<!-- google analytics start -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-62897714-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- google analytics end -->
 </head>
 <body>
 <!-- top header start -->
@@ -85,29 +92,13 @@
 
 <div class="full-w patients_doctors">	
 	<div class="container contact_us">
-		<!-- <div class="col-md-6 col-sm-12 col-xs-12 left_site no-border wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<h4>Don’t wait for the next warning, write to us now!</h4>
-			<div class="contact_wrap">
-				<form method="POST" name="contact_form" id="contact_form">
-					<div>I am a : 
-						<label><input type="radio" name="tricog_type" value="Patient">Patient</label>
-						<label><input type="radio" name="tricog_type" value="Doctor">Doctor</label>
-						<label><input type="radio" name="tricog_type" value="Other">Other</label>
-					</div><br>
-					<input type="text" name="name" placeholder="Name">
-					<input type="text" name="email" placeholder="Email">
-					<textarea placeholder="Messages" name="messages" rows="4"></textarea>
-					<input type="submit" value="SEND" name="send" class="submit_btn" onclick="return validateform();">
-				</form>
-			</div><br><br><br><br>
-		</div> -->
-		<div class="col-md-6 col-sm-12 col-xs-12 right_site wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-			<div class="col-md-6 col-sm-12 col-xs-12">
+		<div class="col-md-12 col-sm-12 col-xs-12 right_site wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+			<div class="col-md-3 col-sm-12 col-xs-12">
 				<h4>Registered Address : </h4><p>Tricog Health Services Pvt. Ltd.<br>94 H 9th Cross,<br>Raj Mahal Vilas Extension,<br>Bangalore - 560080,<br>Karnataka, India</p>
 				<p><strong>Mob : </strong>+91 80 3951 3939</p>
 				<p><strong>Email : </strong><a href="mailto:connect@tricog.com">connect@tricog.com</a></p>
 			</div>
-			<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="col-md-9 col-sm-12 col-xs-12">
 				<iframe width="100%" height="250"  frameborder="0"  src="https://maps.google.co.in/maps?q=Tricog+Hub+Vyalikaval,+Bengaluru&oe=utf-8&client=firefox-a&ie=UTF8&hl=en&output=embed"></iframe>
 			</div>
 		</div>
@@ -124,7 +115,7 @@
 
 <div class="full-w copyright">
 	<div class="container text-center wow fadeInUp animated" data-wow-offset="10" data-wow-duration="0.5s" data-wow-delay="0.05s">
-		Copyright &#169; <?php echo date('Y'); ?> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
+		Copyright &#169; <script>document.write(new Date().getFullYear())</script> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
 	</div>
 </div>
 <!-- footer end -->

@@ -31,6 +31,17 @@
 	<script src="js/sweet-alert.min.js"></script>
 	<!-- Website JS -->
 	<script src="js/tricog_js.js"></script>
+	<!-- google analytics start -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-62897714-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- google analytics end -->
 </head>
 <body>
 <!-- top header start -->
@@ -43,27 +54,27 @@
 		<div class="col-md-8 col-sm-9 nav hidden-xs hidden-sm">
 			<ul>
 				<li><a href=".">Home</a></li>
-				<li><a href="how_it_works.html" class="active">How it works</a></li>
-				<li><a href="about_us.html">About Us</a></li>
+				<li><a href="how_it_works.html">How it works</a></li>
+				<li><a href="about_us.html" class="active">About Us</a></li>
 				<li><a href="get_in_touch.html">Get in touch</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
-<!-- responsive me	nu -->
+<!-- responsive menu -->
 <div class="responsive_slider visible-xs visible-sm">
 	<a href="javascript:void(0)" class="rs_close">X</a>
 	<ul class="responsive">
 		<li><a href=".">Home</a></li>
-		<li class="how_works1"><a href="how_it_works.html" class="active">How it works</a></li>
+		<li class="how_works1"><a href="how_it_works.html">How it works</a></li>
 		<li class="how_works2">
-			<a class="open_subcat active" href="javascript:void(0)">How it works<b class="caret"></b></a>
+			<a class="open_subcat" href="javascript:void(0)">How it works<b class="caret"></b></a>
 			<ul class="subcat">
 				<li><a href="for_patients.html">For Patients</a></li>
 				<li><a href="for_doctors.html">For Doctors</a></li>
 			</ul>
 		</li>
-		<li><a href="about_us.html">About Us</a></li>
+		<li><a href="about_us.html" class="active">About Us</a></li>
 		<li><a href="get_in_touch.html">Get in touch</a></li>
 	</ul>
 </div>
@@ -140,14 +151,14 @@
 <!-- footer start -->
 <div class="full-w footer">
 	<div class="container text-center">
-		<div class="call wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s" data-wow-delay="0.05s">Call: +91 80 3951 3939  |  Write: <a href="mailto:connect@tricog.com">connect@tricog.com</a></div>
-		<div class="visit wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" data-wow-delay="0.05s">Visit Us: 94/H 9th Cross, RMV Extn, Bangalore - 560080, Karnataka, India</div>
+		<div class="call wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s" data-wow-delay="0.05s">Call: +91 96633 75833  |  Write: <a href="mailto:info@tricog.com">info@tricog.com</a></div>
+		<div class="visit wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" data-wow-delay="0.05s">Visit Us: 94 H 9th Cross, 13th Main RMV Extn, Bangalore - 560080, Karnataka, India</div>
 	</div>
 </div>
 
 <div class="full-w copyright">
 	<div class="container text-center wow fadeInUp animated" data-wow-offset="10" data-wow-duration="0.5s" data-wow-delay="0.05s">
-		Copyright &#169; <?php echo date('Y'); ?> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
+		Copyright &#169; <script>document.write(new Date().getFullYear())</script> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
 	</div>
 </div>
 <!-- footer end -->

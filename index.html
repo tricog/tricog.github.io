@@ -27,6 +27,17 @@
 	<script src="js/wow.min.js"></script>
 	<!-- Website JS -->
 	<script src="js/tricog_js.js"></script>
+	<!-- google analytics start -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-62897714-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- google analytics end -->
 </head>
 <body>
 <!-- top header start -->
@@ -119,7 +130,7 @@
 
 <div class="full-w copyright">
 	<div class="container text-center wow fadeInUp animated" data-wow-offset="10" data-wow-duration="0.5s" data-wow-delay="0.05s">
-		Copyright &#169; <?php echo date('Y'); ?> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
+		Copyright &#169; <script>document.write(new Date().getFullYear())</script> Tricog Health Services Pvt LTD. All Rights Reserved. Concept & Design <a href="http://www.two9two7.com/" target="_blank">2927</a>.
 	</div>
 </div>
 <!-- footer end -->
